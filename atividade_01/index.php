@@ -11,7 +11,7 @@ $conn = new mysqli($host,$user,$pass,$db);
 if($conn->connet_error){
     die("erro na conexão");
 }else{
-    echo "<p> Banco: ok</p>";
+    echo "<script> console.log("banco: OK!") <\script>";
 };
 
 ?>
@@ -26,7 +26,7 @@ if($conn->connet_error){
 
     <h2>Login com php</h2>
 
-    <form action="" method="post">
+    <form action="" method="POST">
         
         <label for="usuario">Usuario</label>
         <input type="text" name="usuario" id="">
