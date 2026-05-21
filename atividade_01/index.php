@@ -11,12 +11,18 @@
     </h2>
 
     <form method="post">
+
     <label for="usuario">Usuario</label>
+    <input type="name" name="Nome">
 
     <br><br>
 
     <label for="senha">Senha</label>
     <input type="password" name="senha">
+
+    <br><br>
+    
+    <button type="subimit">Entrar</button>
 
     </form>
 
